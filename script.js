@@ -9,6 +9,6 @@ function e() {
   try {
     c(eval(document.getElementById("display").value));
   } catch (e) {
-    c("Error"); // passa o objeto de exceção para o manipulador de erro
+    c("Erro!"); // passa o objeto de exceção para o manipulador de erro
   }
 }
