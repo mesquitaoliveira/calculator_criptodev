@@ -36,8 +36,8 @@ body {
 
 .calculator input {
   display: grid;
-  width: 60px;
-  height: 60px;
+  width: 67px;
+  height: 67px;
   color: #fff;
   background: #131823;
   place-items: center;
@@ -52,18 +52,18 @@ body {
 }
 .calculator input.clear {
   grid-column: span 2;
-  width: 120px;
+  width: 134px;
 }
 
 .calculator input.plus {
   grid-row: span 2;
-  height: 120px;
+  height: 134px;
 }
 
 .calculator input.equal {
   grid-column: span 2;
   background: #e3402a;
-  width: 120px;
+  width: 134px;
   border-radius: 0 0 9px 0;
 }
 .calculator input.zero {
